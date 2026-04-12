@@ -32,6 +32,11 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "여기에_복사한_ID_넣기"
+      }
     }
   }
 }
