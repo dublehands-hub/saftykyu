@@ -1,11 +1,12 @@
 {
   "expo": {
     "name": "환경안전 도우미",
-    "slug": "mobile",
+    "slug": "safty",
+    "owner": "mastergwang",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mobile",
+    "scheme": "safty",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -14,19 +15,17 @@
       "backgroundColor": "#1a2744"
     },
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mastergwang.safty"
     },
-    "android": {},
+    "android": {
+      "package": "com.mastergwang.safty"
+    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
     "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://replit.com/"
-        }
-      ],
+      ["expo-router", { "origin": "https://replit.com/" }],
       "expo-font",
       "expo-web-browser"
     ],
